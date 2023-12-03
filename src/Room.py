@@ -1,4 +1,5 @@
 from optapy import problem_fact, planning_id
+import csv
 
 @problem_fact
 class Room:
@@ -12,4 +13,15 @@ class Room:
         return self.id
 
     def __str__(self):
-        return f"Room(id={self.id}, name={self.name}, size={self.size})"
+        return f"Room(name={self.name}, size={self.size})"
+
+
+def load_rooms(file_name):
+    room_list = []
+    with open(file_name, "r") as csv_file:
+        csv_reader = csv.reader(csv_file)
+        next(csv_reader, None)
+        for row in csv_reader:
+            id, name, size = row
+            room_list.append(Room(int(id), name, int(size)))
+    return room_list

@@ -5,14 +5,16 @@ from optapy.score import HardSoftScore
 from Timeslot import Timeslot
 from Room import Room
 from Lesson import Lesson
+from Teacher import Teacher
 def format_list(a_list):
     return ',\n'.join(map(str, a_list))
 
 @planning_solution
 class TimeTable:
-    def __init__(self, timeslot_list, room_list, lesson_list, score=None):
+    def __init__(self, timeslot_list, room_list, teacher_list, lesson_list, score=None):
         self.timeslot_list = timeslot_list
         self.room_list = room_list
+        self.teacher_list = teacher_list
         self.lesson_list = lesson_list
         self.score = score
 
@@ -20,6 +22,11 @@ class TimeTable:
     @value_range_provider("timeslotRange")
     def get_timeslot_list(self):
         return self.timeslot_list
+
+    @problem_fact_collection_property(Teacher)
+    @value_range_provider("teacherRange")
+    def get_teacher_list(self):
+        return self.teacher_list
 
     @problem_fact_collection_property(Room)
     @value_range_provider("roomRange")
@@ -42,6 +49,7 @@ class TimeTable:
             f"TimeTable("
             f"timeslot_list={format_list(self.timeslot_list)},\n"
             f"room_list={format_list(self.room_list)},\n"
+            f"teacher_list={format_list(self.teacher_list)},\n"
             f"lesson_list={format_list(self.lesson_list)},\n"
             f"score={str(self.score.toString()) if self.score is not None else 'None'}"
             f")"

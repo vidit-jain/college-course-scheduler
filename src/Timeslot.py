@@ -1,4 +1,6 @@
 from optapy import problem_fact, planning_id
+from datetime import datetime
+import csv
 @problem_fact
 class Timeslot:
     def __init__(self, id, day_of_week, start_time, end_time):
@@ -19,3 +21,15 @@ class Timeslot:
                 f"start_time={self.start_time}, "
                 f"end_time={self.end_time})"
         )
+
+def load_timeslots(file_name):
+    timeslot_list = []
+    with open(file_name, "r") as csv_file:
+        csv_reader = csv.reader(csv_file)
+        next(csv_reader, None)
+        for row in csv_reader:
+            id, day_of_week, start_time, end_time = row
+            start_time = datetime.strptime(start_time, "%H:%M").time()
+            end_time = datetime.strptime(end_time, "%H:%M").time()
+            timeslot_list.append(Timeslot(int(id), day_of_week, start_time, end_time))
+    return timeslot_list
