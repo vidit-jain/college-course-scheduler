@@ -1,0 +1,3 @@
+JPype1==1.4.1
+optapy==9.37.0b0
+packaging==23.2
