@@ -38,8 +38,6 @@ class Lesson:
             f"id={self.id}, "
             f"timeslot={self.timeslot}, "
             f"room={self.room}, "
-            f"prof_list={self.prof_list}, "
             f"subject={self.subject}, "
-            f"student_groups={self.student_groups}"
             f")"
         )
