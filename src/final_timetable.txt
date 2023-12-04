@@ -1,0 +1,168 @@
+
+ Mon   08:30:00   09:55:00 
+
+Numerical Algorithms
+Biomolecular Structures
+Research Methods in Human Sciences
+Literature and the Ethics of telling a Story
+Cognitive Neuroscience
+Advanced Algorithms
+Digital VLSI Design
+
+ Mon   10:05:00   11:30:00 
+
+Analog Electronic Circuits
+Classical Mechanics
+Science II
+Introduction to Spatial Science and Technology
+Topics in SSMT
+Internet and Democracy
+
+ Mon   11:40:00   13:05:00 
+
+General and Structural Chemistry
+Introduction to Linguistics II
+Introduction to Information Security
+Thermodynamics
+Linear Partial Differential Equations and Variational Calculus
+Mathematics of Generative Models
+Distributed Systems
+
+ Mon   14:00:00   15:25:00 
+
+Linear Algebra (Section A)
+Design and Analysis of Software Systems
+Physics of Soft Condensed Matter
+NGS Data Analysis
+Computational Psycholinguistics
+Cognitive Seminar
+
+ Mon   15:35:00   17:00:00 
+
+Digital Signal Analysis
+Communication Theory
+Statistical Mechanics
+Introduction to NLP
+Migrants and Migrations in Modern South Asia
+Flexible Electronics
+
+ Mon   17:10:00   18:35:00 
+
+Information and Communication
+Thinking and Knowing in the Human Sciences I
+Organic Chemistry
+Molecular Modeling and Simulations
+Dynamical Processes in Complex Networks
+Responsible & Safe AI Systems
+Topics in Deep Learning
+
+ Tue   08:30:00   09:55:00 
+
+Machine, Data and Learning
+Introduction to Algorithms Engineering
+Introduction to Particle Physics
+Disaster Management
+Computer Vision
+Topics in Coding Theory
+
+ Tue   10:05:00   11:30:00 
+
+Computing in Sciences II
+Value Education II (Section A)
+Electronics Workshop II
+Communicaton and Controls in IoT
+AI and Human Rights
+Science and Technology: Critical Perspectives
+Remote Sensing
+
+ Tue   11:40:00   13:05:00 
+
+Making of the Contemporary World
+Introduction to Quantum Information and Computation
+Mathematical Methods in Biology
+Molecular Symmetry and Quantum Mechanics
+Behavioral Research: Statistical Methods
+Statistical Methods in AI
+Intro to UAV Design
+
+ Tue   14:00:00   15:25:00 
+
+Computer Systems Organization
+Language Typology and Universals
+Critical Viewing and Reading
+Internals of Application Servers
+Introduction to Game Theory
+Software Engineering
+
+ Tue   15:35:00   17:00:00 
+
+Linear Algebra (Section B)
+Growth and Development
+Readings in Russian Literature: The Nineteenth Century
+Quantum Algorithms
+Cognitive Science and AI
+Information Security Audit and Assurance
+Time Frequency Analysis
+
+ Tue   17:10:00   18:35:00 
+
+Introduction to IoT
+Computational Linguistics 1
+Introduction to Philosophy of Technology
+Music Workshop
+Compilers
+Topics in Information-Theoretic Privacy
+
+ Wed   08:30:00   09:55:00 
+
+Data Structures and Algorithms (Section A)
+Intro to Human Sciences
+Data Visualisation
+Environmental & Social Governance in Mineral Extraction
+System and Network Security
+Mechatronics System Design
+
+ Wed   10:05:00   11:30:00 
+
+Introduction to Software Systems
+Introduction to Brain and Cognition
+Intro to Processor Architecture
+Thinking through moral problems
+Values, Ethics and AI
+Advances in Robotics & Control
+
+ Wed   11:40:00   13:05:00 
+
+Data Structures and Algorithms (Section B)
+Performance Modeling of Computer Systems
+Exploring Masculinities
+Topics in Software Foundations
+Spatial Data Sciences
+Optimization Methods
+
+ Wed   14:00:00   15:25:00 
+
+Value Education II (Section B)
+Software Programming for Performance
+Linguistic Data 3: Data Modelling in ILs
+Gender, Culture and Representation
+Principles of Information Security
+Bioinstrumentation and Devices
+
+ Wed   15:35:00   17:00:00 
+
+Electrodynamics
+Computer Graphics
+Science Lab II
+Science, Technology and Society
+Graph Theory and Practice
+User Interaction and Usability of Digital Products
+
+ Wed   17:10:00   18:35:00 
+
+Introduction to Coding Theory
+Understanding Political Theory
+Machine Learning for Natural Sciences
+Neural Natural Language Generation
+Topics in Reinforcement Learning
+Music, Mind, and Technology
