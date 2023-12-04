@@ -5,6 +5,7 @@ from Timeslot import Timeslot
 from optapy import constraint_provider
 from optapy.constraint import Joiners, ConstraintFactory
 from optapy.score import HardSoftScore
+import datetime
 
 @constraint_provider
 def define_constraints(constraint_factory: ConstraintFactory):
@@ -23,7 +24,14 @@ def define_constraints(constraint_factory: ConstraintFactory):
     ]
 
 def neighboring_timeslot(timeslot1: Timeslot, timeslot2: Timeslot):
-    return (timeslot1.day_of_week == timeslot2.day_of_week and (timeslot1.end_time == timeslot2.start_time or timeslot1.start_time == timeslot2.end_time))
+    a,b = timeslot1.start_time, timeslot1.end_time
+    c,d = timeslot2.start_time, timeslot2.end_time
+    date = datetime.date(2021, 5, 3)
+    a = datetime.datetime.combine(date, a)
+    b = datetime.datetime.combine(date, b)
+    c = datetime.datetime.combine(date, c)
+    d = datetime.datetime.combine(date, d)
+    return (timeslot1.day_of_week == timeslot2.day_of_week and ((a > d and (a - d).total_seconds() < 1200) or (c > b and (c - b).total_seconds() < 1200)))
 # Hard Constraints
 
 # A room can accommodate at most one lesson at the same time.

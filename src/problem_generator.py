@@ -19,7 +19,7 @@ def generate_problem():
     #     Timeslot(10, "TUESDAY", time(hour=14, minute=30), time(hour=15, minute=30)),
     # ]
     room_list = load_rooms("rooms.csv")
-    prof_list = load_teachers("teachers.csv")
+    prof_list = load_teachers("teachers2.csv")
     #[
     #       Teacher(1, "A. Turing", {timeslot_list[0], timeslot_list[1]}, {}),
     #       Teacher(2, "M. Curie", {timeslot_list[1], timeslot_list[2]}, {}),
@@ -27,7 +27,7 @@ def generate_problem():
     #       Teacher(4, "I. Jones", {timeslot_list[0], timeslot_list[1]}, {}),
     #       Teacher(5, "P. Cruz", {timeslot_list[8], timeslot_list[9]}, {}),
     #        ]
-    lesson_list = load_lessons("lessons.csv", prof_list)
+    lesson_list = load_lessons("lesson.csv", prof_list)
     # lesson_list = [
     #     Lesson(1, "Math", {prof_list[0]}, 0, {"9th grade"}, 50, 1),
     #     Lesson(2, "Math", {prof_list[0]}, 0, {"9th grade"}, 50, 1),

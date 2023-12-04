@@ -19,3 +19,4 @@ solution = solver_factory_create(solver_config) \
 
 print(solution)
 
+print(type(solution))

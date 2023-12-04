@@ -51,6 +51,7 @@ def load_lessons(file_name, prof_list):
         csv_reader = csv.reader(csv_file)
         next(csv_reader, None)
         for row in csv_reader:
+            print(row)
             id, subject, prof_ids, ctype, student_groups, expected_students, category = row
             id = int(id)
             prof_ids = {prof_list[int(i.strip())] for i in prof_ids.split(",")} 

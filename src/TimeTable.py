@@ -6,8 +6,24 @@ from Timeslot import Timeslot
 from Room import Room
 from Lesson import Lesson
 from Teacher import Teacher
+import sys
 def format_list(a_list):
     return ',\n'.join(map(str, a_list))
+
+def time_table_printer(self):
+    a = dict()
+    orig_stdout = sys.stdout
+    with open('final_timetable', 'w') as file:
+        sys.stdout = file   
+        for lesson in self.lesson_list:
+            if lesson.timeslot not in a:
+                a[lesson.timeslot] = []
+            a[lesson.timeslot].append(lesson)
+        for k, v in a.items():
+            print(k.day_of_week, " ", k.start_time, " ", k.end_time)
+            for r in v:
+                print(r.subject)
+    sys.stdout = orig_stdout
 
 @planning_solution
 class TimeTable:
@@ -44,7 +60,9 @@ class TimeTable:
     def set_score(self, score):
         self.score = score
 
+
     def __str__(self):
+        time_table_printer(self)
         return (
             f"TimeTable("
             f"timeslot_list={format_list(self.timeslot_list)},\n"
