@@ -68,13 +68,14 @@ class TimeTable:
 
     def __str__(self):
         time_table_printer(self)
-        return (
-            f"TimeTable("
-            f"timeslot_list={format_list(self.timeslot_list)},\n"
-            f"room_list={format_list(self.room_list)},\n"
-            f"teacher_list={format_list(self.teacher_list)},\n"
-            f"lesson_list={format_list(self.lesson_list)},\n"
-            f"score={str(self.score.toString()) if self.score is not None else 'None'}"
-            f")"
-        )
+        return ""
+        # return (
+        #     f"TimeTable("
+        #     f"timeslot_list={format_list(self.timeslot_list)},\n"
+        #     f"room_list={format_list(self.room_list)},\n"
+        #     f"teacher_list={format_list(self.teacher_list)},\n"
+        #     f"lesson_list={format_list(self.lesson_list)},\n"
+        #     f"score={str(self.score.toString()) if self.score is not None else 'None'}"
+        #     f")"
+        # )
 

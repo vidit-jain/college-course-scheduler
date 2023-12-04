@@ -27,4 +27,7 @@ from optapy import solver_factory_create
 solution = solver_factory_create(solver_config) \
     .buildSolver() \
     .solve(generate_problem(args.timeslots, args.rooms, args.teachers, args.lessons))
-print("Schedule written to \"final_timetable\"")
+print(solution)
+print("Schedule written to \"final_timetable.txt\"")
+
+
