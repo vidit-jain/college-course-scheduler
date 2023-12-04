@@ -16,7 +16,7 @@ def cmp(a):
 def time_table_printer(self):
     a = dict()
     orig_stdout = sys.stdout
-    with open('final_timetable', 'w') as file:
+    with open('final_timetable.txt', 'w') as file:
         sys.stdout = file   
         for lesson in self.lesson_list:
             if lesson.timeslot not in a:
