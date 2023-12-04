@@ -24,7 +24,7 @@ class Timeslot:
 
 def load_timeslots(file_name):
     timeslot_list = []
-    with open(file_name, "r") as csv_file:
+    with open("../data/" + file_name, "r") as csv_file:
         csv_reader = csv.reader(csv_file)
         next(csv_reader, None)
         for row in csv_reader:

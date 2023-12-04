@@ -21,7 +21,7 @@ def cat_conflict_val(a, b):
 
 @constraint_provider
 def define_constraints(constraint_factory: ConstraintFactory):
-    load_conflict_matrix("conflictmatrix.csv")
+    load_conflict_matrix("../data/conflictmatrix.csv")
     return [
         # Hard constraints
         room_conflict(constraint_factory),

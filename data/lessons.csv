@@ -1,0 +1,115 @@
+Id,Subject,Prof list,Course Duration Type,Compulsory Student Groups,Expected Students,Category
+0,"Introduction to Software Systems","0,1",1,"CSEUG1,CSDUG1,CNDUG1,CLDUG1,CHDUG1",200,-1
+1,"Data Structures and Algorithms (Section A)","2,3,4",0,"CSEUG1,CSDUG1,CNDUG1",150,-1
+2,"Data Structures and Algorithms (Section B)","2,3,4",0,"ECEUG1,ECDUG1,CHDUG1,CLDUG1",150,-1
+3,"Computer Systems Organization","5,6",0,"CSEUG1,CSDUG1,CLDUG1,CNDUG2,CHDUG2",200,-1
+4,"Introduction to IoT","7,8",0,"CSEUG1, CSDUG1", 100, -1
+5,"Linear Algebra (Section A)","9,10",0,"CSEUG1,CSDUG1,CNDUG1",150,-1
+6,"Linear Algebra (Section B)","9,10",0,"ECEUG1,ECDUG1,CHDUG1,CLDUG1",150,-1
+7,"Analog Electronic Circuits","13",0,"ECEUG1,ECDUG1",100,-1
+8,"Information and Communication","14,15",0,"ECEUG1,ECDUG1",100,-1
+9,"Computing in Sciences II","16",2,"CNDUG1",15,-1
+10,"Classical Mechanics","17",1,"CNDUG1",15,-1
+11,"Electrodynamics","17",2,"CNDUG1",15,-1
+12,"General and Structural Chemistry","18",0,"CNDUG1",15,-1
+13,"Introduction to Linguistics II","19,20",0,"CLDUG1",15,-1
+14,"Computational Linguistics 1","21,22",0,"CLDUG1",15,-1
+15,"Making of the Contemporary World","23,24",0,"CHDUG1",15,-1
+16,"Thinking and Knowing in the Human Sciences I","25,26",0,"CHDUG1",15,-1
+17,"Design and Analysis of Software Systems","27,28",0,"CSEUG2,CSDUG2,CNDUG2,CLDUG2,CHDUG2,LCDUG2",200,-1
+18,"Machine, Data and Learning","29",0,"CSEUG2,CSDUG2,CNDUG2,CLDUG2,CHDUG2,LCDUG2",200,-1
+19,"Intro to Human Sciences","26,30",0,"CSEUG2,CSDUG2,CNDUG3,CLDUG2,ECEUG2,ECDUG2,LCDUG2,LEDUG2",250,-1
+20,"Science II","31,32",0,"CSEUG2,CSDUG2,ECEUG3,ECDUG3,LEDUG3,CLDUG3,CHDUG3",250,-1
+21,"Value Education II (Section A)","33",2,"CSEUG2,CSDUG2,LCDUG2,CLDUG2",150,-1
+22,"Value Education II (Section B)","33",2,"ECEUG2,ECEUG2,LEDUG2,CHDUG2,CNDUG2",150,-1
+23,"Introduction to Information Security","34",1,"",90,1
+24,"Introduction to Coding Theory","14,15",1,"",90,1
+25,"Introduction to Algorithms Engineering","35",2,"",90,1
+26,"Introduction to Quantum Information and Computation","36",1,"",90,1
+27,"Numerical Algorithms","37",2,"",90,1
+28,"Digital Signal Analysis","38",2,"",90,2
+29,"Data Visualisation","39",2,"",39,2
+30,"Introduction to Brain and Cognition","8",2,"",90,2
+31,"Computer Graphics","40,41",1,"",90,2
+32,"Performance Modeling of Computer Systems","42",1,"",90,2
+33,"Software Programming for Performance","7",1,"",90,2
+34,"Introduction to Spatial Science and Technology","43,44",2,"",90,2
+35,"Communication Theory","45",0,"ECEUG2,ECDUG2,LEDUG2",100,-1
+36,"Electronics Workshop II","46,47",0,"ECEUG2,ECDUG2,LEDUG2",100,-1
+37,"Intro to Processor Architecture","6",1,"ECEUG2,ECDUG2,LEDUG2",100,-1
+38,"Communicaton and Controls in IoT","48,49",1,"",100,3
+39,"Thermodynamics","50",1,"CNDUG2",15,-1
+40,"Statistical Mechanics","51",2,"CNDUG2",15,-1
+41,"Biomolecular Structures","52",2,"CNDUG2",15,-1
+42,"Organic Chemistry","16",1,"CNDUG2",15,-1
+43,"Science Lab II","18,31",1,"CNDUG2",15,-1
+44,"Language Typology and Universals","22",0,"CLDUG2,CLDUG3",30,-1
+45,"Introduction to NLP","3,53",0,"CLDUG2",50,-1
+46,"Research Methods in Human Sciences","23,24",0,"CHDUG2",15,-1
+47,"Science, Technology and Society","58",0,"CHDUG2",30,4
+48,"Understanding Political Theory","30",2,"CHDUG2",15,-1
+49,"Thinking through moral problems","56",1,"",80,5
+50,"AI and Human Rights","30",2,"",80,5
+51,"Exploring Masculinities","57",1,"",80,5
+52,"Literature and the Ethics of telling a Story","59",1,"",80,5
+53,"Values, Ethics and AI","96,33",2,"",80,5
+54,"Science and Technology: Critical Perspectives","25",2,"",80,5
+55,"Introduction to Particle Physics","65",0,"",40,6
+56,"Machine Learning for Natural Sciences","16,66",0,"",20,6
+57,"Physics of Soft Condensed Matter","67",0,"",40,6
+58,"Molecular Modeling and Simulations","67,52",0,"",50,6
+59,"Dynamical Processes in Complex Networks","31",0,"",50,6
+60,"Mathematical Methods in Biology","54",0,"",40,6
+61,"NGS Data Analysis","32",0,"",30,6
+62,"Molecular Symmetry and Quantum Mechanics","32",0,"",30,6
+63,"Computational Psycholinguistics","20",0,"",50,-1
+64,"Neural Natural Language Generation","3,53",1,"",30,-1
+65,"Topics in SSMT","38,68",0,"",15,-1
+66,"Linguistic Data 3: Data Modelling in ILs","21",2,"",15,-1
+67,"Growth and Development","23",0,"",40,4
+68,"Internet and Democracy","30",0,"",40,4
+69,"Introduction to Philosophy of Technology","56",0,"",40,4
+70,"Migrants and Migrations in Modern South Asia","24",0,"",40,4
+71,"Readings in Russian Literature: The Nineteenth Century","26",0,"",40,4
+72,"Critical Viewing and Reading","59",0,"",40,4
+73,"Music Workshop","11",0,"",30,4
+74,"Gender, Culture and Representation","95",0,"",40,4
+75,"Environmental & Social Governance in Mineral Extraction","58",0,"",40,4
+76,"Linear Partial Differential Equations and Variational Calculus","94",0,"",50,10
+77,"Mathematics of Generative Models","37",0,"",50,10
+78,"Graph Theory and Practice","89",0,"",40,-1
+79,"Responsible & Safe AI Systems","93",0,"",40,-1
+80,"Quantum Algorithms","92",0,"",40,-1
+81,"Topics in Software Foundations","85",0,"",40,-1
+82,"Cognitive Seminar","87,91",0,"",20,-1
+83,"Spatial Data Sciences","44",0,"",40,-1
+84,"User Interaction and Usability of Digital Products","63,80",0,"",30,-1
+85,"Topics in Reinforcement Learning","73,42",0,"",40,-1
+86,"Cognitive Neuroscience","91",0,"",80,-1
+87,"Remote Sensing","43",0,"",40,-1
+88,"Topics in Deep Learning","89,90",0,"",40,-1
+89,"Disaster Management","76,77",0,"",40,-1
+90,"Music, Mind, and Technology","88",0,"",40,-1
+91,"Behavioral Research: Statistical Methods","87,88",0,"",40,-1
+92,"Cognitive Science and AI","86",0,"",40,-1
+93,"Internals of Application Servers","27",0,"",40,-1
+94,"Introduction to Game Theory","2",0,"",40,-1
+95,"Computer Vision","69",0,"",150,-1
+96,"Information Security Audit and Assurance","33",0,"",40,-1
+97,"System and Network Security","60",0,"",40,-1
+98,"Mechatronics System Design","74,73",0,"",40,-1
+99,"Statistical Methods in AI","70",0,"",150,-1
+100,"Compilers","85",0,"",40,-1
+101,"Distributed Systems","84",0,"",150,-1
+102,"Software Engineering","83",0,"",100,-1
+103,"Principles of Information Security","61",0,"",100,-1
+104,"Advanced Algorithms","82",0,"",40,-1
+105,"Optimization Methods","81",0,"",40,-1
+106,"Advances in Robotics & Control","47",0,"",40,-1
+107,"Intro to UAV Design","73",0,"",40,-1
+108,"Bioinstrumentation and Devices","46",0,"",40,-1
+109,"Flexible Electronics","49",0,"",40,-1
+110,"Digital VLSI Design","72",0,"",40,-1
+111,"Topics in Information-Theoretic Privacy","4,14",0,"",40,-1
+112,"Topics in Coding Theory","71,14",0,"",40,-1
+113,"Time Frequency Analysis","38,68",0,"",40,-1
