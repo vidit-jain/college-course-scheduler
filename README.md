@@ -7,7 +7,7 @@ To install all the necessary packages
 pip install -r requirements.txt
 ```
 
-Then, put the data in a `data/` in the root of the directory (Information about Rooms, Professors, Lessons & Timeslots). For sample data, you can use [this](https://github.com/Vidit-Jain/iiit-spring24-courses-data).
+Then, put the data in a `data/` in the root of the directory (Information about Rooms, Professors, Lessons & Timeslots). There is sample data already provided in the `data/` folder that corresponds to the IIIT 2024 Spring Semester. 
 
 # Running Program
 Once you've put the data in the folder, you can run the program
