@@ -9,6 +9,9 @@ from Teacher import Teacher
 import sys
 def format_list(a_list):
     return ',\n'.join(map(str, a_list))
+def cmp(a):
+    a1, _ = a
+    return a1.id
 
 def time_table_printer(self):
     a = dict()
@@ -19,10 +22,12 @@ def time_table_printer(self):
             if lesson.timeslot not in a:
                 a[lesson.timeslot] = []
             a[lesson.timeslot].append(lesson)
-        for k, v in a.items():
-            print(k.day_of_week, " ", k.start_time, " ", k.end_time)
-            for r in v:
-                print(r.subject)
+        r = list(a.items())
+        r.sort(key=cmp)
+        for k, v in r:
+            print("\n",k.day_of_week, " ", k.start_time, " ", k.end_time,"\n")
+            for c in v:
+                print(c.subject)
     sys.stdout = orig_stdout
 
 @planning_solution

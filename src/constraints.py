@@ -6,9 +6,22 @@ from optapy import constraint_provider
 from optapy.constraint import Joiners, ConstraintFactory
 from optapy.score import HardSoftScore
 import datetime
+import csv
+global_mat = []
+def load_conflict_matrix(file_name):
+    with open(file_name, "r") as csv_file:
+        csv_reader = csv.reader(csv_file)
+        for row in csv_reader:
+            global_mat.append([int(element) for element in row])
+
+def cat_conflict_val(a, b):
+    if (a > b):
+        a, b = b, a
+    return global_mat[a][b]
 
 @constraint_provider
 def define_constraints(constraint_factory: ConstraintFactory):
+    load_conflict_matrix("conflictmatrix.csv")
     return [
         # Hard constraints
         room_conflict(constraint_factory),
@@ -88,8 +101,7 @@ def category_conflict(constraint_factory: ConstraintFactory):
             .join(Lesson,
                   Joiners.equal(lambda lesson: lesson.timeslot),
                   Joiners.less_than(lambda lesson: lesson.id),
-                  ).filter(lambda lesson1, lesson2: lesson1.category != lesson2.category )\
-                          .penalize("Different categories in same timeslot", HardSoftScore.ofSoft(10))
+                  ).penalize("Different categories in same timeslot", HardSoftScore.ONE_SOFT,lambda lesson1, lesson2: cat_conflict_val(lesson1.category, lesson2.category))
 
 # A general penalty applied if two courses have the same timing to incentivize not putting everything in one slot. 
 def overbooking_timeslot(constraint_factory: ConstraintFactory):

@@ -18,5 +18,3 @@ solution = solver_factory_create(solver_config) \
     .solve(generate_problem())
 
 print(solution)
-
-print(type(solution))
